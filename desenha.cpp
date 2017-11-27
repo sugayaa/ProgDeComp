@@ -576,5 +576,12 @@ while(mj != 0){
 		cout << i <<": ("<<p.first<<","<<p.second<<")"<<endl;
 	}
 	*/
+	
+	for(int i = 0 ; i < 26; ++i){
+		free(figGen[i]);
+		figGen[i] = NULL;
+	}
+	
+
 	return 0;
 }
